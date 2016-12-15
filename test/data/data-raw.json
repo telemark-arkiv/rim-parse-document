@@ -1,0 +1,172 @@
+{
+  "s:Envelope": {
+    "$": {
+      "xmlns:s": {
+        "name": "xmlns:s",
+        "value": "http://schemas.xmlsoap.org/soap/envelope/",
+        "prefix": "xmlns",
+        "local": "s",
+        "uri": "http://www.w3.org/2000/xmlns/"
+      }
+    },
+    "$ns": {
+      "uri": "http://schemas.xmlsoap.org/soap/envelope/",
+      "local": "Envelope"
+    },
+    "s:Body": {
+      "$ns": {
+        "uri": "http://schemas.xmlsoap.org/soap/envelope/",
+        "local": "Body"
+      },
+      "ns0:Archive": {
+        "$": {
+          "xmlns:ns0": {
+            "name": "xmlns:ns0",
+            "value": "http://software-innovation.com/SI.FOT.RIM.WS",
+            "prefix": "xmlns",
+            "local": "ns0",
+            "uri": "http://www.w3.org/2000/xmlns/"
+          }
+        },
+        "$ns": {
+          "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+          "local": "Archive"
+        },
+        "ns0:request": {
+          "$ns": {
+            "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+            "local": "request"
+          },
+          "ns0:Area": {
+            "_": "8",
+            "$ns": {
+              "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+              "local": "Area"
+            }
+          },
+          "ns0:School": {
+            "$ns": {
+              "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+              "local": "School"
+            }
+          },
+          "ns0:SourceApplicationName": {
+            "_": "VIGO",
+            "$ns": {
+              "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+              "local": "SourceApplicationName"
+            }
+          },
+          "ns0:Student": {
+            "$ns": {
+              "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+              "local": "Student"
+            },
+            "ns0:Document": {
+              "$ns": {
+                "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                "local": "Document"
+              },
+              "ns0:DocumentDate": {
+                "_": "2015-04-14T00:00:00+02:00",
+                "$ns": {
+                  "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                  "local": "DocumentDate"
+                }
+              },
+              "ns0:DocumentType": {
+                "_": "TILBUD",
+                "$ns": {
+                  "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                  "local": "DocumentType"
+                }
+              },
+              "ns0:FileDataBase64": {
+                "_": "HerErDetLittData",
+                "$ns": {
+                  "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                  "local": "FileDataBase64"
+                }
+              },
+              "ns0:Title": {
+                "_": "Resultat av søknad til videregående opplæring skoleåret 2015/2016",
+                "$ns": {
+                  "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                  "local": "Title"
+                }
+              }
+            },
+            "ns0:Email": {
+              "_": "bendik.bananen@hotmail.com",
+              "$ns": {
+                "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                "local": "Email"
+              }
+            },
+            "ns0:FirstName": {
+              "_": "Bendik",
+              "$ns": {
+                "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                "local": "FirstName"
+              }
+            },
+            "ns0:LastName": {
+              "_": "Bananen",
+              "$ns": {
+                "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                "local": "LastName"
+              }
+            },
+            "ns0:OfficialAddress": {
+              "$ns": {
+                "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                "local": "OfficialAddress"
+              },
+              "ns0:AddressLine1": {
+                "_": "Konglevegen 79",
+                "$ns": {
+                  "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                  "local": "AddressLine1"
+                }
+              },
+              "ns0:AddressLine2": {
+                "$ns": {
+                  "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                  "local": "AddressLine2"
+                }
+              },
+              "ns0:City": {
+                "_": "HØTTEN",
+                "$ns": {
+                  "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                  "local": "City"
+                }
+              },
+              "ns0:ZipCode": {
+                "_": "1732",
+                "$ns": {
+                  "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                  "local": "ZipCode"
+                }
+              }
+            },
+            "ns0:PersonalIdentityNumber": {
+              "_": "1234567890",
+              "$ns": {
+                "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                "local": "PersonalIdentityNumber"
+              }
+            },
+            "ns0:Phone": {
+              "_": "98765432",
+              "$ns": {
+                "uri": "http://software-innovation.com/SI.FOT.RIM.WS",
+                "local": "Phone"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "rim-parse-document",
+  "version": "1.0.0",
+  "description": "Parse documents from RIM service",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.9.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "standard && nsp check && tap --reporter=spec test/**/*.js",
+    "coverage": "tap test/**/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix"
+  },
+  "keywords": [
+    "isi",
+    "ist",
+    "rim",
+    "Telemark fylkeskommune"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/rim-parse-document.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/rim-parse-document/issues"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.15",
+    "nsp": "2.6.2",
+    "standard": "8.6.0",
+    "tap": "8.0.1"
+  },
+  "dependencies": {
+    "xml2js": "0.4.17"
+  }
+}

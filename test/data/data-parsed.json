@@ -1,0 +1,24 @@
+{
+  "info": {
+    "area": "8",
+    "source": "VIGO"
+  },
+  "person": {
+    "personalIdNumber": "12345678910",
+    "firstName": "Bendik",
+    "lastName": "Bananen",
+    "email": "bendik.bananen@hotmail.com",
+    "phone": "98765432",
+    "address": {
+      "street": "Konglevegen 79",
+      "city": "HØTTEN",
+      "zip": "1732"
+    }
+  },
+  "document": {
+    "type": "TILBUD",
+    "date": "2015-04-14T00:00:00+02:00",
+    "title": "Resultat av søknad til videregående opplæring skoleåret 2015/2016",
+    "data": "HerErDetLittData"
+  }
+}

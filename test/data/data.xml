@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <ns0:Archive xmlns:ns0="http://software-innovation.com/SI.FOT.RIM.WS">
+            <ns0:request>
+                <ns0:Area>8</ns0:Area>
+                <ns0:School />
+                <ns0:SourceApplicationName>VIGO</ns0:SourceApplicationName>
+                <ns0:Student>
+                    <ns0:Document>
+                        <ns0:DocumentDate>2015-04-14T00:00:00+02:00</ns0:DocumentDate>
+                        <ns0:DocumentType>TILBUD</ns0:DocumentType>
+                        <ns0:FileDataBase64>HerErDetLittData</ns0:FileDataBase64>
+                        <ns0:Title>Resultat av søknad til videregående opplæring skoleåret 2015/2016</ns0:Title>
+                    </ns0:Document>
+                    <ns0:Email>bendik.bananen@hotmail.com</ns0:Email>
+                    <ns0:FirstName>Bendik</ns0:FirstName>
+                    <ns0:LastName>Bananen</ns0:LastName>
+                    <ns0:OfficialAddress>
+                        <ns0:AddressLine1>Konglevegen 79</ns0:AddressLine1>
+                        <ns0:AddressLine2 />
+                        <ns0:City>HØTTEN</ns0:City>
+                        <ns0:ZipCode>1732</ns0:ZipCode>
+                    </ns0:OfficialAddress>
+                    <ns0:PersonalIdentityNumber>12345678910</ns0:PersonalIdentityNumber>
+                    <ns0:Phone>98765432</ns0:Phone>
+                </ns0:Student>
+            </ns0:request>
+        </ns0:Archive>
+    </s:Body>
+</s:Envelope>
