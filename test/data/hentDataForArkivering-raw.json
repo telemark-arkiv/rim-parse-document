@@ -1,0 +1,11 @@
+{
+  "ser:HentDataForArkivering": {
+    "$": {
+      "xmlns:ser": "http://rim2.ist.com/rim2/v1/service"
+    },
+    "HentDataForArkiveringRequestElm": {
+      "AntallElevDokument": "3",
+      "Fylke": "string"
+    }
+  }
+}

@@ -4,7 +4,7 @@
         <ns0:Archive xmlns:ns0="http://software-innovation.com/SI.FOT.RIM.WS">
             <ns0:request>
                 <ns0:Area>8</ns0:Area>
-                <ns0:School />
+                <ns0:School>Krabaten vgs</ns0:School>
                 <ns0:SourceApplicationName>VIGO</ns0:SourceApplicationName>
                 <ns0:Student>
                     <ns0:Document>

@@ -1,6 +1,7 @@
 {
   "info": {
     "area": "8",
+    "school": "Krabaten vgs",
     "source": "VIGO"
   },
   "person": {
@@ -11,6 +12,7 @@
     "phone": "98765432",
     "address": {
       "street": "Konglevegen 79",
+      "street2": "",
       "city": "HØTTEN",
       "zip": "1732"
     }

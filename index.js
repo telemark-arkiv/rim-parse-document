@@ -7,7 +7,7 @@ const options = {
   strict: true,
   explicitArray: false,
   stripPrefix: true,
-  xmlns: true
+  xmlns: false
 }
 
 module.exports = (document, callback) => {

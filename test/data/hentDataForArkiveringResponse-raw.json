@@ -1,0 +1,38 @@
+{
+  "ser:hentDataForArkiveringResponse": {
+    "$": {
+      "xmlns:ser": "http://rim2.ist.com/rim2/v1/service"
+    },
+    "Elevelement": {
+      "UnikId": "string",
+      "FagsystemNavn": "string",
+      "Fodselsnummer": "string",
+      "Fornavn": "string",
+      "Etternavn": "string",
+      "Epost": "string",
+      "Mobilnr": "string",
+      "Skole": "string",
+      "Fylke": "string",
+      "FolkeRegisterAdresse": {
+        "Adresselinje1": "string",
+        "Adresselinje2": "string",
+        "Postnummmer": "string",
+        "Poststed": "string"
+      },
+      "Dokumentelement": {
+        "Dokumenttype": "string",
+        "Dokumenttittel": "string",
+        "DokumentId": "string",
+        "Dokumentdato": "2008-09-29T03:49:45",
+        "Dokumentfil": "c29ub3Jhcw==",
+        "Tilhorighet": "string",
+        "Info": "string"
+      }
+    },
+    "Feilmelding": {
+      "FeilId": "string",
+      "Feiltype": "string",
+      "DetaljertBeskrivelse": "string"
+    }
+  }
+}
