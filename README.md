@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/rim-parse-document.svg?branch=master)](https://travis-ci.org/telemark/rim-parse-document)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # rim-parse-document
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/rim-parse-document.svg)](https://greenkeeper.io/)
 parse xml from rim service and return json
 
 ## Usage
